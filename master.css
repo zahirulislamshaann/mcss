@@ -746,6 +746,10 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+.muted-text {
+    color: var(--mutedText-color);
+    font-family: var(--font-primary);  
+    font-size: 0.8rem;
 a {
     font-family: var(--font-primary);
     font-weight: 500;
