@@ -1,0 +1,1042 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: var(--font-primary);
+    transition: all 0.25s ease-in-out;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(17, 17, 17, 1);
+
+    --pText-color: rgba(245, 245, 244, 1);
+    --sText-color: rgba(212, 212, 209, 1);
+    --mutedText-color: rgba(163, 163, 158, 1);
+    --disabledText-color: rgba(115, 115, 110, 1);
+    --a-color: rgba(96, 165, 250, 1);
+
+    --button-primary-color: rgba(245, 245, 244, 1);
+    --button-secondary-color: rgba(28, 28, 27, 1);
+    --button-border-color: rgba(64, 64, 61, 1);
+    --button-primary-hover-color: rgba(229, 229, 226, 1);
+    --button-secondary-hover-color: rgba(38, 38, 36, 1);
+    --button-border-hover-color: rgba(82, 82, 78, 1);
+
+    --table-color: rgba(212, 212, 209, 1);
+    --table-border-color: rgba(52, 52, 49, 1);
+    --table-bg-color: rgba(24, 24, 23, 1);
+    --th-font-color: rgba(245, 245, 244, 1);
+    --th-bg-color: rgba(32, 32, 31, 1);
+
+    --card-bg-color: rgba(24, 24, 23, 1);
+    --card-border-color: rgba(55, 55, 52, 1);
+
+    --input-border-color: rgba(64, 64, 61, 1);
+    --input-bg-color: rgba(28, 28, 27, 1);
+    --input-text-color: rgba(245, 245, 244, 1);
+    --input-range-color: rgba(245, 245, 244, 1);
+
+    --ptag-text-color: rgba(134, 239, 172, 1);
+    --ptag-background-color: rgba(20, 37, 26, 1);
+    --ptag-border-color: rgba(40, 92, 57, 1);
+
+    --ntag-text-color: rgba(252, 165, 165, 1);
+    --ntag-background-color: rgba(42, 22, 22, 1);
+    --ntag-border-color: rgba(107, 41, 41, 1);
+
+    --wtag-text-color: rgba(253, 230, 138, 1);
+    --wtag-background-color: rgba(41, 34, 19, 1);
+    --wtag-border-color: rgba(107, 75, 25, 1);
+
+    --distag-text-color: rgba(212, 212, 209, 1);
+    --distag-background-color: rgba(38, 38, 36, 1);
+    --distag-border-color: rgba(64, 64, 61, 1);
+
+}
+
+
+.obsidian-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(17, 17, 17, 1);
+    --pText-color: rgba(238, 238, 235, 1);
+    --sText-color: rgba(190, 190, 185, 1);
+    --mutedText-color: rgba(135, 135, 130, 1);
+    --disabledText-color: rgba(90, 90, 86, 1);
+    --a-color: rgba(220, 220, 215, 1);
+    --button-primary-color: rgba(225, 225, 220, 1);
+    --button-secondary-color: rgba(31, 31, 30, 1);
+    --button-border-color: rgba(66, 66, 63, 1);
+    --button-primary-hover-color: rgba(245, 245, 240, 1);
+    --button-secondary-hover-color: rgba(43, 43, 41, 1);
+    --button-border-hover-color: rgba(100, 100, 95, 1);
+    --table-color: rgba(210, 210, 205, 1);
+    --table-border-color: rgba(55, 55, 52, 1);
+    --table-bg-color: rgba(23, 23, 22, 1);
+    --th-font-color: rgba(235, 235, 230, 1);
+    --th-bg-color: rgba(34, 34, 32, 1);
+    --card-bg-color: rgba(25, 25, 24, 1);
+    --card-border-color: rgba(53, 53, 50, 1);
+    --input-border-color: rgba(70, 70, 66, 1);
+    --input-bg-color: rgba(28, 28, 27, 1);
+    --input-text-color: rgba(238, 238, 235, 1);
+    --input-range-color: rgba(205, 205, 198, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(248, 248, 246, 1);
+    --pText-color: rgba(30, 30, 29, 1);
+    --sText-color: rgba(75, 75, 72, 1);
+    --mutedText-color: rgba(125, 125, 120, 1);
+    --disabledText-color: rgba(170, 170, 164, 1);
+    --a-color: rgba(55, 55, 52, 1);
+    --button-primary-color: rgba(38, 38, 36, 1);
+    --button-secondary-color: rgba(255, 255, 253, 1);
+    --button-border-color: rgba(210, 210, 204, 1);
+    --button-primary-hover-color: rgba(57, 57, 54, 1);
+    --button-secondary-hover-color: rgba(239, 239, 235, 1);
+    --button-border-hover-color: rgba(175, 175, 168, 1);
+    --table-color: rgba(75, 75, 70, 1);
+    --table-border-color: rgba(225, 225, 219, 1);
+    --table-bg-color: rgba(255, 255, 253, 1);
+    --th-font-color: rgba(45, 45, 42, 1);
+    --th-bg-color: rgba(240, 240, 236, 1);
+    --card-bg-color: rgba(255, 255, 253, 1);
+    --card-border-color: rgba(225, 225, 219, 1);
+    --input-border-color: rgba(205, 205, 198, 1);
+    --input-bg-color: rgba(255, 255, 253, 1);
+    --input-text-color: rgba(35, 35, 32, 1);
+    --input-range-color: rgba(65, 65, 60, 1);
+    --ptag-text-color: rgba(40, 105, 65, 1);
+    --ptag-background-color: rgba(229, 242, 232, 1);
+    --ptag-border-color: rgba(190, 220, 198, 1);
+    --ntag-text-color: rgba(160, 50, 50, 1);
+    --ntag-background-color: rgba(250, 233, 231, 1);
+    --ntag-border-color: rgba(238, 199, 195, 1);
+    --wtag-text-color: rgba(135, 90, 20, 1);
+    --wtag-background-color: rgba(249, 241, 220, 1);
+    --wtag-border-color: rgba(230, 211, 166, 1);
+    --distag-text-color: rgba(65, 85, 120, 1);
+    --distag-background-color: rgba(233, 238, 247, 1);
+    --distag-border-color: rgba(200, 211, 233, 1);
+}
+
+.blue-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(16, 19, 24, 1);
+    --pText-color: rgba(235, 238, 243, 1);
+    --sText-color: rgba(183, 192, 205, 1);
+    --mutedText-color: rgba(130, 143, 161, 1);
+    --disabledText-color: rgba(83, 94, 110, 1);
+    --a-color: rgba(155, 184, 224, 1);
+    --button-primary-color: rgba(176, 199, 232, 1);
+    --button-secondary-color: rgba(27, 34, 44, 1);
+    --button-border-color: rgba(62, 78, 99, 1);
+    --button-primary-hover-color: rgba(198, 215, 240, 1);
+    --button-secondary-hover-color: rgba(38, 48, 62, 1);
+    --button-border-hover-color: rgba(92, 113, 140, 1);
+    --table-color: rgba(190, 201, 217, 1);
+    --table-border-color: rgba(48, 58, 72, 1);
+    --table-bg-color: rgba(21, 26, 33, 1);
+    --th-font-color: rgba(228, 234, 243, 1);
+    --th-bg-color: rgba(31, 40, 53, 1);
+    --card-bg-color: rgba(23, 29, 37, 1);
+    --card-border-color: rgba(49, 62, 80, 1);
+    --input-border-color: rgba(62, 77, 98, 1);
+    --input-bg-color: rgba(24, 30, 39, 1);
+    --input-text-color: rgba(235, 238, 243, 1);
+    --input-range-color: rgba(142, 174, 219, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.blue-porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(242, 246, 251, 1);
+    --pText-color: rgba(27, 37, 52, 1);
+    --sText-color: rgba(65, 79, 101, 1);
+    --mutedText-color: rgba(105, 121, 144, 1);
+    --disabledText-color: rgba(160, 172, 189, 1);
+    --a-color: rgba(48, 91, 151, 1);
+    --button-primary-color: rgba(43, 76, 120, 1);
+    --button-secondary-color: rgba(229, 237, 248, 1);
+    --button-border-color: rgba(183, 202, 228, 1);
+    --button-primary-hover-color: rgba(33, 62, 101, 1);
+    --button-secondary-hover-color: rgba(215, 228, 244, 1);
+    --button-border-hover-color: rgba(142, 170, 207, 1);
+    --table-color: rgba(65, 82, 107, 1);
+    --table-border-color: rgba(210, 222, 239, 1);
+    --table-bg-color: rgba(252, 253, 255, 1);
+    --th-font-color: rgba(35, 53, 77, 1);
+    --th-bg-color: rgba(224, 234, 247, 1);
+    --card-bg-color: rgba(250, 252, 255, 1);
+    --card-border-color: rgba(203, 218, 238, 1);
+    --input-border-color: rgba(174, 194, 222, 1);
+    --input-bg-color: rgba(253, 254, 255, 1);
+    --input-text-color: rgba(27, 37, 52, 1);
+    --input-range-color: rgba(60, 102, 160, 1);
+    --ptag-text-color: rgba(32, 105, 66, 1);
+    --ptag-background-color: rgba(224, 242, 230, 1);
+    --ptag-border-color: rgba(166, 213, 181, 1);
+    --ntag-text-color: rgba(158, 48, 48, 1);
+    --ntag-background-color: rgba(250, 229, 228, 1);
+    --ntag-border-color: rgba(235, 185, 182, 1);
+    --wtag-text-color: rgba(125, 82, 16, 1);
+    --wtag-background-color: rgba(249, 239, 213, 1);
+    --wtag-border-color: rgba(226, 203, 145, 1);
+    --distag-text-color: rgba(49, 80, 133, 1);
+    --distag-background-color: rgba(222, 233, 250, 1);
+    --distag-border-color: rgba(174, 197, 235, 1);
+}
+
+.green-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(17, 21, 19, 1);
+    --pText-color: rgba(235, 240, 235, 1);
+    --sText-color: rgba(185, 198, 188, 1);
+    --mutedText-color: rgba(131, 148, 136, 1);
+    --disabledText-color: rgba(85, 101, 90, 1);
+    --a-color: rgba(151, 195, 164, 1);
+    --button-primary-color: rgba(174, 211, 183, 1);
+    --button-secondary-color: rgba(27, 37, 30, 1);
+    --button-border-color: rgba(60, 82, 66, 1);
+    --button-primary-hover-color: rgba(195, 224, 202, 1);
+    --button-secondary-hover-color: rgba(37, 49, 40, 1);
+    --button-border-hover-color: rgba(87, 115, 95, 1);
+    --table-color: rgba(190, 205, 192, 1);
+    --table-border-color: rgba(47, 62, 51, 1);
+    --table-bg-color: rgba(22, 29, 24, 1);
+    --th-font-color: rgba(230, 238, 231, 1);
+    --th-bg-color: rgba(32, 44, 35, 1);
+    --card-bg-color: rgba(24, 32, 26, 1);
+    --card-border-color: rgba(50, 69, 55, 1);
+    --input-border-color: rgba(61, 82, 66, 1);
+    --input-bg-color: rgba(25, 33, 27, 1);
+    --input-text-color: rgba(235, 240, 235, 1);
+    --input-range-color: rgba(145, 190, 156, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.green-porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(242, 247, 242, 1);
+    --pText-color: rgba(29, 42, 33, 1);
+    --sText-color: rgba(66, 86, 70, 1);
+    --mutedText-color: rgba(105, 128, 109, 1);
+    --disabledText-color: rgba(159, 177, 161, 1);
+    --a-color: rgba(45, 112, 68, 1);
+    --button-primary-color: rgba(43, 91, 57, 1);
+    --button-secondary-color: rgba(226, 240, 228, 1);
+    --button-border-color: rgba(179, 211, 184, 1);
+    --button-primary-hover-color: rgba(31, 73, 44, 1);
+    --button-secondary-hover-color: rgba(210, 232, 213, 1);
+    --button-border-hover-color: rgba(135, 183, 146, 1);
+    --table-color: rgba(66, 86, 69, 1);
+    --table-border-color: rgba(210, 228, 212, 1);
+    --table-bg-color: rgba(252, 254, 251, 1);
+    --th-font-color: rgba(34, 57, 39, 1);
+    --th-bg-color: rgba(222, 237, 224, 1);
+    --card-bg-color: rgba(250, 253, 249, 1);
+    --card-border-color: rgba(199, 221, 202, 1);
+    --input-border-color: rgba(171, 201, 176, 1);
+    --input-bg-color: rgba(253, 255, 252, 1);
+    --input-text-color: rgba(29, 42, 33, 1);
+    --input-range-color: rgba(53, 120, 73, 1);
+    --ptag-text-color: rgba(27, 101, 57, 1);
+    --ptag-background-color: rgba(217, 241, 224, 1);
+    --ptag-border-color: rgba(157, 211, 174, 1);
+    --ntag-text-color: rgba(158, 48, 48, 1);
+    --ntag-background-color: rgba(250, 229, 228, 1);
+    --ntag-border-color: rgba(235, 185, 182, 1);
+    --wtag-text-color: rgba(125, 82, 16, 1);
+    --wtag-background-color: rgba(249, 239, 213, 1);
+    --wtag-border-color: rgba(226, 203, 145, 1);
+    --distag-text-color: rgba(43, 103, 63, 1);
+    --distag-background-color: rgba(222, 241, 226, 1);
+    --distag-border-color: rgba(168, 215, 178, 1);
+}
+
+.red-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(22, 18, 18, 1);
+    --pText-color: rgba(242, 236, 235, 1);
+    --sText-color: rgba(202, 185, 183, 1);
+    --mutedText-color: rgba(151, 128, 126, 1);
+    --disabledText-color: rgba(101, 81, 80, 1);
+    --a-color: rgba(218, 155, 151, 1);
+    --button-primary-color: rgba(225, 177, 172, 1);
+    --button-secondary-color: rgba(41, 29, 29, 1);
+    --button-border-color: rgba(92, 59, 57, 1);
+    --button-primary-hover-color: rgba(239, 197, 192, 1);
+    --button-secondary-hover-color: rgba(54, 37, 37, 1);
+    --button-border-hover-color: rgba(122, 76, 73, 1);
+    --table-color: rgba(211, 194, 192, 1);
+    --table-border-color: rgba(63, 44, 43, 1);
+    --table-bg-color: rgba(29, 23, 23, 1);
+    --th-font-color: rgba(243, 231, 230, 1);
+    --th-bg-color: rgba(47, 31, 31, 1);
+    --card-bg-color: rgba(31, 25, 25, 1);
+    --card-border-color: rgba(72, 48, 47, 1);
+    --input-border-color: rgba(89, 57, 55, 1);
+    --input-bg-color: rgba(32, 25, 25, 1);
+    --input-text-color: rgba(242, 236, 235, 1);
+    --input-range-color: rgba(210, 142, 137, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.red-porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(250, 244, 243, 1);
+    --pText-color: rgba(47, 30, 30, 1);
+    --sText-color: rgba(91, 63, 62, 1);
+    --mutedText-color: rgba(137, 103, 101, 1);
+    --disabledText-color: rgba(188, 163, 161, 1);
+    --a-color: rgba(145, 48, 51, 1);
+    --button-primary-color: rgba(123, 42, 46, 1);
+    --button-secondary-color: rgba(247, 229, 227, 1);
+    --button-border-color: rgba(226, 184, 181, 1);
+    --button-primary-hover-color: rgba(101, 31, 35, 1);
+    --button-secondary-hover-color: rgba(240, 214, 211, 1);
+    --button-border-hover-color: rgba(204, 145, 142, 1);
+    --table-color: rgba(91, 63, 62, 1);
+    --table-border-color: rgba(238, 214, 211, 1);
+    --table-bg-color: rgba(255, 252, 251, 1);
+    --th-font-color: rgba(75, 37, 38, 1);
+    --th-bg-color: rgba(245, 225, 223, 1);
+    --card-bg-color: rgba(255, 251, 250, 1);
+    --card-border-color: rgba(232, 202, 199, 1);
+    --input-border-color: rgba(218, 176, 173, 1);
+    --input-bg-color: rgba(255, 253, 252, 1);
+    --input-text-color: rgba(47, 30, 30, 1);
+    --input-range-color: rgba(153, 54, 57, 1);
+    --ptag-text-color: rgba(32, 105, 66, 1);
+    --ptag-background-color: rgba(224, 242, 230, 1);
+    --ptag-border-color: rgba(166, 213, 181, 1);
+    --ntag-text-color: rgba(150, 39, 44, 1);
+    --ntag-background-color: rgba(250, 223, 222, 1);
+    --ntag-border-color: rgba(231, 168, 166, 1);
+    --wtag-text-color: rgba(125, 82, 16, 1);
+    --wtag-background-color: rgba(249, 239, 213, 1);
+    --wtag-border-color: rgba(226, 203, 145, 1);
+    --distag-text-color: rgba(49, 80, 133, 1);
+    --distag-background-color: rgba(222, 233, 250, 1);
+    --distag-border-color: rgba(174, 197, 235, 1);
+}
+
+.yellow-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(22, 21, 17, 1);
+    --pText-color: rgba(241, 239, 231, 1);
+    --sText-color: rgba(199, 192, 171, 1);
+    --mutedText-color: rgba(148, 139, 115, 1);
+    --disabledText-color: rgba(99, 92, 74, 1);
+    --a-color: rgba(218, 194, 126, 1);
+    --button-primary-color: rgba(226, 207, 157, 1);
+    --button-secondary-color: rgba(39, 35, 25, 1);
+    --button-border-color: rgba(85, 72, 46, 1);
+    --button-primary-hover-color: rgba(239, 222, 178, 1);
+    --button-secondary-hover-color: rgba(53, 46, 32, 1);
+    --button-border-hover-color: rgba(113, 94, 58, 1);
+    --table-color: rgba(207, 199, 177, 1);
+    --table-border-color: rgba(61, 54, 38, 1);
+    --table-bg-color: rgba(28, 26, 21, 1);
+    --th-font-color: rgba(241, 236, 219, 1);
+    --th-bg-color: rgba(43, 38, 26, 1);
+    --card-bg-color: rgba(30, 28, 22, 1);
+    --card-border-color: rgba(69, 61, 41, 1);
+    --input-border-color: rgba(82, 70, 44, 1);
+    --input-bg-color: rgba(31, 29, 22, 1);
+    --input-text-color: rgba(241, 239, 231, 1);
+    --input-range-color: rgba(207, 181, 111, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.yellow-porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(250, 247, 238, 1);
+    --pText-color: rgba(45, 39, 25, 1);
+    --sText-color: rgba(91, 78, 51, 1);
+    --mutedText-color: rgba(137, 120, 85, 1);
+    --disabledText-color: rgba(186, 171, 137, 1);
+    --a-color: rgba(135, 96, 25, 1);
+    --button-primary-color: rgba(107, 76, 21, 1);
+    --button-secondary-color: rgba(244, 235, 211, 1);
+    --button-border-color: rgba(222, 202, 151, 1);
+    --button-primary-hover-color: rgba(85, 59, 15, 1);
+    --button-secondary-hover-color: rgba(237, 223, 188, 1);
+    --button-border-hover-color: rgba(196, 166, 98, 1);
+    --table-color: rgba(91, 78, 51, 1);
+    --table-border-color: rgba(234, 222, 190, 1);
+    --table-bg-color: rgba(255, 253, 247, 1);
+    --th-font-color: rgba(69, 53, 25, 1);
+    --th-bg-color: rgba(241, 230, 199, 1);
+    --card-bg-color: rgba(255, 252, 245, 1);
+    --card-border-color: rgba(229, 215, 177, 1);
+    --input-border-color: rgba(214, 193, 139, 1);
+    --input-bg-color: rgba(255, 254, 250, 1);
+    --input-text-color: rgba(45, 39, 25, 1);
+    --input-range-color: rgba(147, 105, 29, 1);
+    --ptag-text-color: rgba(32, 105, 66, 1);
+    --ptag-background-color: rgba(224, 242, 230, 1);
+    --ptag-border-color: rgba(166, 213, 181, 1);
+    --ntag-text-color: rgba(158, 48, 48, 1);
+    --ntag-background-color: rgba(250, 229, 228, 1);
+    --ntag-border-color: rgba(235, 185, 182, 1);
+    --wtag-text-color: rgba(123, 78, 9, 1);
+    --wtag-background-color: rgba(248, 234, 195, 1);
+    --wtag-border-color: rgba(222, 194, 121, 1);
+    --distag-text-color: rgba(49, 80, 133, 1);
+    --distag-background-color: rgba(222, 233, 250, 1);
+    --distag-border-color: rgba(174, 197, 235, 1);
+}
+
+.pink-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(22, 18, 21, 1);
+    --pText-color: rgba(242, 235, 240, 1);
+    --sText-color: rgba(200, 183, 194, 1);
+    --mutedText-color: rgba(149, 126, 141, 1);
+    --disabledText-color: rgba(99, 80, 92, 1);
+    --a-color: rgba(211, 157, 190, 1);
+    --button-primary-color: rgba(222, 181, 206, 1);
+    --button-secondary-color: rgba(40, 29, 37, 1);
+    --button-border-color: rgba(85, 58, 76, 1);
+    --button-primary-hover-color: rgba(237, 200, 222, 1);
+    --button-secondary-hover-color: rgba(53, 37, 48, 1);
+    --button-border-hover-color: rgba(115, 76, 101, 1);
+    --table-color: rgba(209, 192, 202, 1);
+    --table-border-color: rgba(61, 43, 55, 1);
+    --table-bg-color: rgba(29, 23, 27, 1);
+    --th-font-color: rgba(242, 231, 238, 1);
+    --th-bg-color: rgba(45, 31, 41, 1);
+    --card-bg-color: rgba(31, 25, 29, 1);
+    --card-border-color: rgba(70, 48, 63, 1);
+    --input-border-color: rgba(83, 57, 74, 1);
+    --input-bg-color: rgba(32, 25, 30, 1);
+    --input-text-color: rgba(242, 235, 240, 1);
+    --input-range-color: rgba(203, 143, 179, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.pink-porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(249, 243, 247, 1);
+    --pText-color: rgba(45, 31, 41, 1);
+    --sText-color: rgba(88, 64, 81, 1);
+    --mutedText-color: rgba(135, 105, 127, 1);
+    --disabledText-color: rgba(185, 160, 178, 1);
+    --a-color: rgba(143, 61, 109, 1);
+    --button-primary-color: rgba(117, 45, 87, 1);
+    --button-secondary-color: rgba(243, 226, 237, 1);
+    --button-border-color: rgba(221, 183, 208, 1);
+    --button-primary-hover-color: rgba(94, 33, 69, 1);
+    --button-secondary-hover-color: rgba(234, 208, 225, 1);
+    --button-border-hover-color: rgba(197, 143, 177, 1);
+    --table-color: rgba(88, 64, 81, 1);
+    --table-border-color: rgba(235, 214, 228, 1);
+    --table-bg-color: rgba(255, 251, 254, 1);
+    --th-font-color: rgba(68, 40, 59, 1);
+    --th-bg-color: rgba(241, 222, 235, 1);
+    --card-bg-color: rgba(255, 250, 253, 1);
+    --card-border-color: rgba(229, 202, 220, 1);
+    --input-border-color: rgba(214, 174, 201, 1);
+    --input-bg-color: rgba(255, 253, 255, 1);
+    --input-text-color: rgba(45, 31, 41, 1);
+    --input-range-color: rgba(157, 73, 122, 1);
+    --ptag-text-color: rgba(32, 105, 66, 1);
+    --ptag-background-color: rgba(224, 242, 230, 1);
+    --ptag-border-color: rgba(166, 213, 181, 1);
+    --ntag-text-color: rgba(150, 39, 44, 1);
+    --ntag-background-color: rgba(250, 223, 222, 1);
+    --ntag-border-color: rgba(231, 168, 166, 1);
+    --wtag-text-color: rgba(125, 82, 16, 1);
+    --wtag-background-color: rgba(249, 239, 213, 1);
+    --wtag-border-color: rgba(226, 203, 145, 1);
+    --distag-text-color: rgba(49, 80, 133, 1);
+    --distag-background-color: rgba(222, 233, 250, 1);
+    --distag-border-color: rgba(174, 197, 235, 1);
+}
+
+.violet-noir {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(19, 18, 24, 1);
+    --pText-color: rgba(239, 237, 245, 1);
+    --sText-color: rgba(192, 186, 207, 1);
+    --mutedText-color: rgba(139, 131, 158, 1);
+    --disabledText-color: rgba(91, 84, 109, 1);
+    --a-color: rgba(181, 164, 222, 1);
+    --button-primary-color: rgba(198, 184, 230, 1);
+    --button-secondary-color: rgba(33, 29, 43, 1);
+    --button-border-color: rgba(69, 58, 94, 1);
+    --button-primary-hover-color: rgba(216, 205, 239, 1);
+    --button-secondary-hover-color: rgba(45, 38, 59, 1);
+    --button-border-hover-color: rgba(96, 79, 129, 1);
+    --table-color: rgba(199, 192, 216, 1);
+    --table-border-color: rgba(52, 44, 68, 1);
+    --table-bg-color: rgba(25, 23, 32, 1);
+    --th-font-color: rgba(237, 232, 247, 1);
+    --th-bg-color: rgba(38, 32, 51, 1);
+    --card-bg-color: rgba(27, 25, 35, 1);
+    --card-border-color: rgba(59, 49, 78, 1);
+    --input-border-color: rgba(69, 57, 92, 1);
+    --input-bg-color: rgba(28, 25, 37, 1);
+    --input-text-color: rgba(239, 237, 245, 1);
+    --input-range-color: rgba(169, 150, 216, 1);
+    --ptag-text-color: rgba(145, 205, 165, 1);
+    --ptag-background-color: rgba(35, 65, 45, 1);
+    --ptag-border-color: rgba(60, 100, 70, 1);
+    --ntag-text-color: rgba(235, 145, 145, 1);
+    --ntag-background-color: rgba(72, 37, 37, 1);
+    --ntag-border-color: rgba(110, 55, 55, 1);
+    --wtag-text-color: rgba(230, 190, 120, 1);
+    --wtag-background-color: rgba(67, 53, 31, 1);
+    --wtag-border-color: rgba(105, 80, 43, 1);
+    --distag-text-color: rgba(165, 185, 215, 1);
+    --distag-background-color: rgba(37, 48, 65, 1);
+    --distag-border-color: rgba(57, 72, 95, 1);
+}
+
+.violet-porcelain {
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Inter", sans-serif;
+    --border-radius: 8px;
+    --border-width: 1px;
+
+    --bg-color: rgba(246, 243, 251, 1);
+    --pText-color: rgba(36, 31, 49, 1);
+    --sText-color: rgba(75, 65, 100, 1);
+    --mutedText-color: rgba(116, 104, 146, 1);
+    --disabledText-color: rgba(167, 157, 190, 1);
+    --a-color: rgba(100, 70, 158, 1);
+    --button-primary-color: rgba(79, 54, 127, 1);
+    --button-secondary-color: rgba(235, 228, 248, 1);
+    --button-border-color: rgba(198, 184, 229, 1);
+    --button-primary-hover-color: rgba(62, 40, 104, 1);
+    --button-secondary-hover-color: rgba(222, 211, 242, 1);
+    --button-border-hover-color: rgba(166, 146, 211, 1);
+    --table-color: rgba(75, 65, 100, 1);
+    --table-border-color: rgba(222, 214, 239, 1);
+    --table-bg-color: rgba(253, 251, 255, 1);
+    --th-font-color: rgba(52, 41, 76, 1);
+    --th-bg-color: rgba(231, 222, 246, 1);
+    --card-bg-color: rgba(252, 249, 255, 1);
+    --card-border-color: rgba(211, 198, 235, 1);
+    --input-border-color: rgba(190, 174, 222, 1);
+    --input-bg-color: rgba(254, 252, 255, 1);
+    --input-text-color: rgba(36, 31, 49, 1);
+    --input-range-color: rgba(112, 81, 172, 1);
+    --ptag-text-color: rgba(32, 105, 66, 1);
+    --ptag-background-color: rgba(224, 242, 230, 1);
+    --ptag-border-color: rgba(166, 213, 181, 1);
+    --ntag-text-color: rgba(158, 48, 48, 1);
+    --ntag-background-color: rgba(250, 229, 228, 1);
+    --ntag-border-color: rgba(235, 185, 182, 1);
+    --wtag-text-color: rgba(125, 82, 16, 1);
+    --wtag-background-color: rgba(249, 239, 213, 1);
+    --wtag-border-color: rgba(226, 203, 145, 1);
+    --distag-text-color: rgba(74, 53, 135, 1);
+    --distag-background-color: rgba(233, 225, 250, 1);
+    --distag-border-color: rgba(193, 177, 233, 1);
+}
+
+body {
+    background-color: var(--bg-color);
+    margin: 5%;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+h1 {
+    color: var(--pText-color);
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    color: var(--pText-color);
+    font-family: var(--font-primary);
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    color: var(--pText-color);
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.015em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    color: var(--pText-color);
+    font-family: var(--font-primary);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h5 {
+    color: var(--pText-color);
+    font-family: var(--font-primary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    color: var(--pText-color);
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+p {
+    color: var(--pText-color);
+    font-family: var(--font-primary);  
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625;
+    letter-spacing: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+a {
+    font-family: var(--font-primary);
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--a-color);
+    cursor: pointer;
+}
+table {
+    margin: 10px 0 10px 0;
+    width: auto;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    color: var(--mutedText-color);
+    background: var(--table-bg-color);
+    overflow-x: auto;
+}
+td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--table-border-color);
+}
+
+th {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--table-border-color);
+    background: var(--th-bg-color);
+    color: var(--th-font-color);
+    font-weight: 500;
+}
+.pButton {
+    margin: 10px 0 10px 0px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out ;
+    color: var(--button-secondary-color);
+    background: var(--button-primary-color);
+    border: 1px solid var(--button-primary-color);
+}
+.pButton:hover {
+    background: var(--button-primary-hover-color);
+}
+.sButton {
+    margin: 10px 0 10px 0px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out ;
+    color: var(--button-primary-color);
+    background: var(--button-secondary-color);
+    border: 1px solid var(--button-border-color);
+}
+.sButton:hover {
+    background: var(--button-secondary-hover-color);
+}
+.tButton {
+    margin: 10px 0 10px 0px;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: underline;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out ;
+    color: var(--button-primary-color);
+    background: transparent;
+    border: 1px solid transparent;
+}
+.tButton:hover {
+    transform: translateY(-2px);
+}
+
+
+.card {
+    padding: 24px;
+    margin: 32px 0 32px 0;
+    background: var(--card-bg-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+.card h2 {
+    margin: 0 0 12px 0;
+    color: var(--pText-color);
+}
+
+.card p {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--sText-color);
+}
+
+
+.ptag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--ptag-text-color);
+    background-color: var(--ptag-background-color);
+    border: 1px solid var(--ptag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.ntag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--ntag-text-color);
+    background-color: var(--ntag-background-color);
+    border: 1px solid var(--ntag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.wtag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--wtag-text-color);
+    background-color: var(--wtag-background-color);
+    border: 1px solid var(--wtag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.distag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--distag-text-color);
+    background-color: var(--distag-background-color);
+    border: 1px solid var(--distag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.ptag::before {
+    font-family: "Font Awesome 7 Free";
+    content: "\f058";
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+.ni-ptag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--ptag-text-color);
+    background-color: var(--ptag-background-color);
+    border: 1px solid var(--ptag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+}
+.ni-ntag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--ntag-text-color);
+    background-color: var(--ntag-background-color);
+    border: 1px solid var(--ntag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.ni-wtag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--wtag-text-color);
+    background-color: var(--wtag-background-color);
+    border: 1px solid var(--wtag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+.ni-distag {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 4px 10px;
+    margin: 5px 0 5px 0;
+    color: var(--distag-text-color);
+    background-color: var(--distag-background-color);
+    border: 1px solid var(--distag-border-color);
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.ntag::before {
+    font-family: "Font Awesome 7 Free";
+    content: "\f057";
+    font-weight: 400;
+    margin-right: 6px;
+}
+
+.wtag::before {
+    font-family: "Font Awesome 7 Free";
+    content: "\f071";
+    font-weight: 900;
+    margin-right: 6px;
+}
+
+.distag::before {
+    font-family: "Font Awesome 7 Free";
+    content: "\f05a";
+    font-weight: 900;
+    margin-right: 6px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--font-primary);
+}
+input {
+    padding: 10px;
+    margin: 4px 0px 4px 0px;
+    border: 1px solid var(--input-border-color);
+    border-radius: 6px;
+    font-family: var(--font-primary);
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--input-text-color);
+    background-color: var(--input-bg-color);
+}
+input[type="range"] {
+    accent-color: var(--input-range-color);
+}
+input[type="color"] {
+    padding: 2px;
+}
+select {
+    padding: 10px;
+    margin: 4px 0px 4px 0px;
+    border: 1px solid var(--input-border-color);
+    background-color: var(--input-bg-color);
+    border-radius: 6px;
+    font-family: var(--font-primary);
+    font-weight: 300;
+    line-height: 1.2;
+    color: var(--input-text-color);
+}
+textarea {
+    padding: 10px;
+    border: 1px solid var(--input-border-color);
+    border-radius: var(--border-radius);
+}
+

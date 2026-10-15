@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master CSS</title>
+    <link rel="stylesheet" href="https://mcss.shaann.workers.dev/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca4f94548a.js" crossorigin="anonymous"></script>
+</head>
+<body class="obsedian">
+
+    <select id="theme-select">
+    <option value="obsidian-noir">Obsidian Noir</option>
+    <option value="porcelain">Porcelain</option>
+    <option value="blue-noir">Blue Noir</option>
+    <option value="blue-porcelain">Blue Porcelain</option>
+    <option value="green-noir">Green Noir</option>
+    <option value="green-porcelain">Green Porcelain</option>
+    <option value="red-noir">Red Noir</option>
+    <option value="red-porcelain">Red Porcelain</option>
+    <option value="yellow-noir">Yellow Noir</option>
+    <option value="yellow-porcelain">Yellow Porcelain</option>
+    <option value="pink-noir">Pink Noir</option>
+    <option value="pink-porcelain">Pink Porcelain</option>
+    <option value="violet-noir">Violet Noir</option>
+    <option value="violet-porcelain">Violet Porcelain</option>
+    </select>
+
+
+    <form action="" class="card" style="max-width: 400px;">
+        <h1>Sign In.</h1>
+        <input type="email" name="" id="" placeholder="Enter your email." style="width: 100%;"><br>
+        <input type="password" name="" id="" placeholder="Enter Password." style="width: 100%;"><br>
+        <input type="button" value="Login" class="pButton" style="width: 100%;">
+    </form>
+
+    <div class="card">
+        <h1>This is an Card.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi enim iste optio non nesciunt id tempore accusamus exercitationem, culpa quibusdam repellat cumque ducimus sunt aspernatur rerum placeat veniam voluptates debitis!</p>
+        <span class="ptag">Active</span> <br>
+        <button class="pButton">Explore This card</button>
+    </div>
+
+    <button class="pButton">Primary Button</button> <br>
+    <button class="sButton">Secondary Button</button> <br>
+    <button class="tButton">Tertiary Button</button> <br>
+
+    <span class="ptag">Active</span>
+    <span class="ntag">Eror</span>
+    <span class="wtag">Warning</span>
+    <span class="distag">Disabled</span>
+    
+    <table>
+    <caption>List of Contributer's</caption>
+    <tr>
+    <th>Name</th>
+    <th>Email</th>
+    </tr>
+    <tr>
+    <td>Shaan</td>
+    <td>shaan@gmail.com</td>
+    </tr>
+    <tr>
+    <td>Zahirul Islam</td>
+    <td>zahirulislamshaan@gmail.com</td>
+    </tr>
+    </table>
+
+    <h1>This is h1.</h1>
+    <h2>This is h2.</h2>
+    <h3>This is h3.</h3>
+    <h4>This is h4.</h4>
+    <h5>This is h5.</h5>
+    <h6>This is h6.</h6>
+
+    <p><a>Link here</a> ipsum dolor sit amet consectetur adipisicing elit. Nam dolores dicta officia voluptate ipsa aliquam eos tempore eius temporibus placeat, laudantium molestiae atque iste quo optio, nihil ut hic quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque corrupti suscipit veniam ut, doloribus voluptates, voluptatibus distinctio possimus culpa neque officiis eius laudantium nam deserunt, iste vero nulla at aut.</p>
+
+    <script>
+    const themeSelect = document.getElementById("theme-select");
+
+    const themeClasses = [
+    "obsidian-noir",
+    "porcelain",
+    "blue-noir",
+    "blue-porcelain",
+    "green-noir",
+    "green-porcelain",
+    "red-noir",
+    "red-porcelain",
+    "yellow-noir",
+    "yellow-porcelain",
+    "pink-noir",
+    "pink-porcelain",
+    "violet-noir",
+    "violet-porcelain"
+    ];
+
+    themeSelect.addEventListener("change", function () {
+    document.body.classList.remove(...themeClasses);
+    document.body.classList.add(themeSelect.value);
+    });
+    </script>
+
+</body>
+</html>
