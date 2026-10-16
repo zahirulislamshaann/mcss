@@ -828,6 +828,13 @@ th {
 .tButton:hover {
     transform: translateY(-2px);
 }
+.tButton::before {
+    font-family: "Font Awesome 7 Free";
+    content: "\f057";
+    font-weight: 400;
+    margin-right: 6px;
+}
+
 
 
 .card {
