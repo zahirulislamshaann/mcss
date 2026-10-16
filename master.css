@@ -1004,6 +1004,10 @@ th {
     margin-right: 6px;
 }
 
+i {
+    color: var(--pText-color);
+}
+
 label {
     display: inline-block;
     margin-bottom: 4px;
