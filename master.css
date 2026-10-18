@@ -28,6 +28,12 @@
     --button-secondary-hover-color: rgba(38, 38, 36, 1);
     --button-border-hover-color: rgba(82, 82, 78, 1);
 
+    --delete-button-color: rgba(184, 50, 50, 1);
+    --delete-button-hover-color: rgba(209, 63, 63, 1);
+    --delete-button-text-color: rgba(255, 255, 255, 1);
+    --delete-button-border-color: rgba(158, 39, 39, 1);
+    --delete-button-border-hover-color: rgba(180, 48, 48, 1);
+
     --table-color: rgba(212, 212, 209, 1);
     --table-border-color: rgba(52, 52, 49, 1);
     --table-bg-color: rgba(24, 24, 23, 1);
@@ -800,7 +806,22 @@ th {
 .tButton:hover {
     transform: translateY(-2px);
 }
-
+.delButton {
+    margin: 10px 0 10px 0px;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 0.25s ease-in-out ;
+    color: var(--delete-button-text-color);
+    background: var(--delete-button-color);
+    border: 1px solid var(--delete-button-border-color);
+}
+.sButton:hover {
+    background: var(--delete-button-hover-color);
+    border: 1px solid var(--delete-button-border-hover-color);
+}
 .card {
     padding: 24px;
     margin: 32px 0 32px 0;
