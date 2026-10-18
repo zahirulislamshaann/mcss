@@ -671,7 +671,6 @@
 
 body {
     background-color: var(--bg-color);
-    max-width: 960px;
     margin: 5%;
     padding: 0;
     font-size: 1rem;
@@ -818,7 +817,7 @@ th {
     background: var(--delete-button-color);
     border: 1px solid var(--delete-button-border-color);
 }
-.sButton:hover {
+.delButton:hover {
     background: var(--delete-button-hover-color);
     border: 1px solid var(--delete-button-border-hover-color);
 }
