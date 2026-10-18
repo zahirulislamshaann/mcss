@@ -142,9 +142,9 @@
     --wtag-text-color: rgba(135, 90, 20, 1);
     --wtag-background-color: rgba(249, 241, 220, 1);
     --wtag-border-color: rgba(230, 211, 166, 1);
-    --distag-text-color: rgba(65, 85, 120, 1);
-    --distag-background-color: rgba(233, 238, 247, 1);
-    --distag-border-color: rgba(200, 211, 233, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 .blue-noir {
@@ -228,9 +228,9 @@
     --wtag-text-color: rgba(125, 82, 16, 1);
     --wtag-background-color: rgba(249, 239, 213, 1);
     --wtag-border-color: rgba(226, 203, 145, 1);
-    --distag-text-color: rgba(49, 80, 133, 1);
-    --distag-background-color: rgba(222, 233, 250, 1);
-    --distag-border-color: rgba(174, 197, 235, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 .green-noir {
@@ -314,9 +314,9 @@
     --wtag-text-color: rgba(125, 82, 16, 1);
     --wtag-background-color: rgba(249, 239, 213, 1);
     --wtag-border-color: rgba(226, 203, 145, 1);
-    --distag-text-color: rgba(43, 103, 63, 1);
-    --distag-background-color: rgba(222, 241, 226, 1);
-    --distag-border-color: rgba(168, 215, 178, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 .red-noir {
@@ -400,9 +400,9 @@
     --wtag-text-color: rgba(125, 82, 16, 1);
     --wtag-background-color: rgba(249, 239, 213, 1);
     --wtag-border-color: rgba(226, 203, 145, 1);
-    --distag-text-color: rgba(49, 80, 133, 1);
-    --distag-background-color: rgba(222, 233, 250, 1);
-    --distag-border-color: rgba(174, 197, 235, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 .yellow-noir {
@@ -486,9 +486,9 @@
     --wtag-text-color: rgba(123, 78, 9, 1);
     --wtag-background-color: rgba(248, 234, 195, 1);
     --wtag-border-color: rgba(222, 194, 121, 1);
-    --distag-text-color: rgba(49, 80, 133, 1);
-    --distag-background-color: rgba(222, 233, 250, 1);
-    --distag-border-color: rgba(174, 197, 235, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 .pink-noir {
@@ -572,9 +572,9 @@
     --wtag-text-color: rgba(125, 82, 16, 1);
     --wtag-background-color: rgba(249, 239, 213, 1);
     --wtag-border-color: rgba(226, 203, 145, 1);
-    --distag-text-color: rgba(49, 80, 133, 1);
-    --distag-background-color: rgba(222, 233, 250, 1);
-    --distag-border-color: rgba(174, 197, 235, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 .violet-noir {
@@ -658,9 +658,9 @@
     --wtag-text-color: rgba(125, 82, 16, 1);
     --wtag-background-color: rgba(249, 239, 213, 1);
     --wtag-border-color: rgba(226, 203, 145, 1);
-    --distag-text-color: rgba(74, 53, 135, 1);
-    --distag-background-color: rgba(233, 225, 250, 1);
-    --distag-border-color: rgba(193, 177, 233, 1);
+    --distag-text-color: rgba(104, 104, 99, 1);
+    --distag-background-color: rgba(234, 234, 231, 1);
+    --distag-border-color: rgba(213, 213, 207, 1);
 }
 
 body {
