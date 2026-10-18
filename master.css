@@ -807,9 +807,16 @@ th {
     background: var(--card-bg-color);
     border: 1px solid var(--card-border-color);
     border-radius: var(--border-radius);
+}
+.hcard {
+    padding: 24px;
+    margin: 32px 0 32px 0;
+    background: var(--card-bg-color);
+    border: 1px solid var(--card-border-color);
+    border-radius: var(--border-radius);
     transition: all 0.3s ease-in-out;
 }
-.card:hover {
+.hcard:hover {
     transform: translateY(-5px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
 }
