@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@keyframes pop-in {
+    from {
+        opacity: 0;
+        transform: translateY(8px) scale(0.97);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -850,6 +862,15 @@ th {
     font-size: 14px;
     line-height: 1.6;
     color: var(--sText-color);
+}
+.pop-up {
+    display: none; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    animation: pop-in 180ms ease-out;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 
